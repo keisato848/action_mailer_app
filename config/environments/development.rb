@@ -36,7 +36,7 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
-  config/action_mailer.delivery_method = :file
+  config.action_mailer.delivery_method = :file
   # tmp/mails 以下に保存される
 
   # Print deprecation notices to the Rails logger.
